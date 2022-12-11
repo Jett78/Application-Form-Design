@@ -1,0 +1,55 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<h1 align="center"><u>Job Application Form</u></h1>
+		<hr><form action="formsubmit.html" method="get" enctype="multipart/form-data"></hr>
+		    Full name :   <input type="text" name="txtname" placeholder="First name" maxlength="10" / required>
+			              <input type="text" name="txtname" placeholder="Last name"  maxlength="10"/ required></br></br>
+			Address: <input type="text" name="txtname" placeholder="Address"/ required>
+			        <input type="text" name="txtname" placeholder="ward no." size="3"/ required></br></br>
+			Contact number: <select name="number">
+				<option>+977</option>
+				<option>+994</option>
+				<option>+375</option>
+			</select>
+			<input type="text" name="txtname" placeholder="contact number"/ required></br></br>
+			Email: <input type="email" name="email" placeholder="@...com"/ required></br></br>
+			Password: <input type="password" name="pwd" placeholder="Password"/ required></br></br>
+			<div>Birth Date</div>
+			    <input type="date" name="date"/required>
+			<div><hr>Gender</hr></div></br>
+			    <input type="radio" name="radgender" value="Male"/>Male</br></br>
+				<input type="radio" name="radgender" value="Female"/>Female</br></br>
+			    <input type="radio" name="radgender" value="Other"/>Other</br></br>
+			    <input type="radio" name="radgender" value="Deny to state"/>Deny to state</br></br>
+			    <div>Select food</div>
+			    <select multiple size="3">
+			    	<optgroup label="Fruits">
+			    	<option value="Apple">Apple</option>
+			    	<option value="Mango">Mango</option>
+			    	<option value="Kiwi">Kiwi</option>
+			    	<option value="Orange">Orange</option></optgroup>
+			    	<optgroup label="Junk">
+			    	<option value="Pizza">Pizza</option>
+			    	<option value="Lays">Lays</option>
+			    	<option value="Burger">Burger</option>
+			    	<option value="Chips">Chips</option></optgroup>
+			    </select>
+			<div><hr>Select schedules you are available to work</hr></div></br>
+			    <input type="checkbox" name="chktime" value="6:45am to 10:45am">6:45am to 10:45am</br></br>
+			    <input type="checkbox" name="chktime" value="10:45am to 2:45pm">10:45am to 2:45pm</br></br>
+			    <input type="checkbox" name="chktime" value="2:45pm to 6:45pm">2:45pm to 6:45pm</br></br>
+			    <input type="checkbox" name="chktime" value="6:45pm to 10:45pm">6:45pm to 10:45pm</br></br>
+			<hr><div>upload picture</div></hr>
+			<input type="file" name="file" accept="image/*"></br></br>
+			<div>upload C.V</div>
+			<input type="file" name="file"></br></br>
+			<input type="textarea" name="txtarea" rows="5" cols="33"/></br></br>
+			<input type="submit" name="submit" value="submit"/>
+			<input type="reset" name="reset" value="reset"/>
+		</form>
+	</body>
+</html>
